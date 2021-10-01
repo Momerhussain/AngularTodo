@@ -1,6 +1,6 @@
 import { Component, Input, OnInit, Output,EventEmitter } from '@angular/core';
 // import * as EventEmitter from 'node:events';
-import { Todos } from 'src/app/Todo';
+import { Todos } from '../../../../src/app/Todo';
 
 @Component({
   selector: 'app-todo-item',
